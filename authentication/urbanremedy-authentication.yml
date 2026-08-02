@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: derived
+source: live probes of https://urbanremedy.com/wp-json/ (2026-07-21)
+summary:
+  types: [none, apiKey]
+  notes: >-
+    Urban Remedy publishes no developer program of its own; its API surface is
+    the platform-provided WordPress + WooCommerce REST layer at /wp-json/.
+    Access models observed live: the WooCommerce Store API (wc/store/v1) and
+    the WordPress content API (wp/v2 read endpoints) are public and
+    unauthenticated (verified HTTP 200 with JSON payloads); the WooCommerce
+    management REST API (wc/v3) rejects unauthenticated requests (verified
+    HTTP 401) and, per the WooCommerce platform standard, requires store-issued
+    consumer key/secret credentials that are not publicly available.
+schemes:
+- name: public-store-api
+  type: none
+  description: WooCommerce Store API (wc/store/v1) — public read access to the
+    product catalog; cart/checkout routes use platform-managed Cart-Token
+    session tokens.
+  evidence: GET /wp-json/wc/store/v1/products returned 200 with product JSON
+- name: woocommerce-rest-keys
+  type: apiKey
+  description: WooCommerce management REST API (wc/v3) — requires WooCommerce
+    consumer key/secret issued by the store; not a public developer program.
+  evidence: GET /wp-json/wc/v3/products returned 401 unauthenticated

@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on urbanremedy.com
+hosts:
+- host: https://urbanremedy.com
+  documents:
+  - path: /.well-known/security.txt                    # RFC 9116
+    status: 404
+  - path: /.well-known/openid-configuration            # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server      # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog                     # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+notes: >-
+  urbanremedy.com publishes no /.well-known/ discovery documents. The site is
+  WordPress + WooCommerce on WP Engine and does expose a live REST surface at
+  /wp-json/ (35 namespaces, 873 routes), including the public WooCommerce
+  Store API (wc/store/v1). A /llms.txt exists but returns only the placeholder
+  text "Enter your text here..." — an unconfigured stub, not a usable llms.txt.
