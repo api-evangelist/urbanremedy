@@ -38,6 +38,15 @@ tags:
   - Plant-Based
   - Juice
   - Wellness
+  - E-Commerce
+  - Retail
+tags_raw:
+  - Company
+  - Food
+  - Organic
+  - Plant-Based
+  - Juice
+  - Wellness
   - eCommerce
   - Retail
 apis:
@@ -51,6 +60,10 @@ apis:
     humanURL: https://urbanremedy.com
     baseURL: https://urbanremedy.com/wp-json/wc/store/v1
     tags:
+      - E-Commerce
+      - Product
+      - Storefront
+    tags_raw:
       - eCommerce
       - Products
       - Storefront
