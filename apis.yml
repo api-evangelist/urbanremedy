@@ -62,24 +62,20 @@ tags_raw:
   - eCommerce
   - Retail
 apis:
-  - name: Urban Remedy WooCommerce Store API
-    description: >-
-      Platform-provided WooCommerce Store API on urbanremedy.com, discovered
-      live at /wp-json/wc/store/v1. Public, unauthenticated read access to the
-      product catalog (verified 200 with product JSON); cart and checkout
-      routes use platform-managed Cart-Token session tokens. Not a first-party
-      developer program — the surface ships with WooCommerce.
-    humanURL: https://urbanremedy.com
-    baseURL: https://urbanremedy.com/wp-json/wc/store/v1
+  - aid: urbanremedy:urbanremedy-com-website-wordpress-rest
+    name: Urban Remedy Website (WordPress REST)
+    description: 'The public WordPress REST API (wp-json) of the Urban Remedy website at urbanremedy.com:
+      the route index of the site''s content management system, catalogued as one site surface rather than
+      as separate APIs.'
+    baseURL: https://urbanremedy.com/wp-json
     tags:
-      - E-Commerce
-      - Product
-      - Storefront
-    tags_raw:
-      - eCommerce
-      - Products
-      - Storefront
-    properties: []
+    - WordPress
+    x-surface: platform-generated
+    properties:
+    - type: Documentation
+      url: https://urbanremedy.com/wp-json
+    x-platform: wordpress
+    x-platform-surface: rest
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
