@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/urbanremedy/integrations
+- https://zapier.com/apps/urban-remedy/integrations
+- https://n8n.io/integrations/urbanremedy/
+- https://composio.dev/toolkits/urbanremedy
+- https://monid.ai/tools/urbanremedy
+checked:
+- https://composio.dev/toolkits/urbanremedy
+- https://monid.ai/tools/urbanremedy
+- https://n8n.io/integrations/urbanremedy/
+- https://zapier.com/apps/urban-remedy/integrations
+- https://zapier.com/apps/urbanremedy/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
