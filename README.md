@@ -1,4 +1,4 @@
-# urbanremedy
+# Urban Remedy
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-urbanremedy is a company surfaced as a portfolio company of slow-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Urban Remedy is a certified B Corp organic food company founded by Neka Pasquale on the belief that food is healing. It makes fresh, organic, plant-based, ready-to-eat meals, cold pressed juices, juice cleanses, and snacks with fresh, locally sourced ingredients, delivered nationwide and sold through its own retail stores and kiosks. The company runs on WordPress + WooCommerce, exposing a live public storefront REST surface at /wp-json/ alongside its e-commerce site.
 
-Backed by: slow-ventures — https://urbanremedy.com
+**Areas:** Company · Food · Organic · Plant-Based · Juice · Wellness · E-Commerce · Retail
+
+## Urban Remedy on APIs.io
+
+Everything profiled for Urban Remedy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/urbanremedy/](https://apis.io/providers/urbanremedy/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Urban Remedy Website (WordPress REST)](https://apis.io/apis/urbanremedy/urbanremedy-com-website-wordpress-rest/) — The public WordPress REST API (wp-json) of the Urban Remedy website at urbanremedy.com: the route index of the site's content management system, catalogued…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Urbanremedy Authentication](https://apis.io/security/urbanremedy/urbanremedy-authentication/)
+- [Urbanremedy Domain Security](https://apis.io/security/urbanremedy/urbanremedy-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://urbanremedy.com)
+- [Sign up](https://urbanremedy.com/my-account/)
+- [Support](https://urbanremedy.com/contact/)
+- [Blog](https://urbanremedy.com/blog/)
+- [Terms of service](https://urbanremedy.com/terms/)
+- [Privacy policy](https://urbanremedy.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 18.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/urbanremedy/](https://apis.io/providers/urbanremedy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Urban Remedy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/urbanremedy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
